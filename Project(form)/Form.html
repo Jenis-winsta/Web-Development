@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-heading">Payment Form</h1>
+
+      <h2>Contact info</h2>
+      <form method="GET" action="">
+        <p>
+          <label for="Name">Name:</label>
+          <input type="text" name="name" placeholder="Jenis Winsta" /><br />
+        </p>
+        <fieldset>
+          <legend>Gender</legend>
+          <p>
+            <input type="radio" name="gender" value="male" id="male" />Male
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              id="female"
+            />Female
+          </p>
+        </fieldset>
+        <p>
+          <label for="Address">Address:</label><br />
+          <textarea
+            name="address"
+            id="address"
+            cols="100"
+            rows="8"
+            placeholder="Address"
+          ></textarea>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+        </p>
+        <p>
+          <label for="pincode">Pincode:</label>
+          <input type="number" name="pincode" id="pincode" />
+        </p>
+      </form>
+      <h2>Payment details</h2>
+      <p>
+        Card Type:
+        <select name="card_type" id="card_type">
+          <option value="">--Select a card type--</option>
+          <option value="visa">Visa</option>
+          <option value="rupay">Rupay</option>
+          <option value="mastercard">MasterCard</option>
+        </select>
+      </p>
+      <p>
+        Card Number: <input type="number" name="card_number" id="card_number" />
+      </p>
+      <p>
+        Expiration date: <input type="date" name="exp_date" id="exp_date" />
+      </p>
+      <p>cvv: <input type="password" name="cvv" id="cvv" /></p>
+      <div class="centerbtn">
+        <input type="submit" value="Pay Now" />
+        <input type="reset" value="Reset" />
+      </div>
+    </div>
+  </body>
+</html>
