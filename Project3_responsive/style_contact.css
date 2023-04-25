@@ -27,11 +27,13 @@ textarea {
 
 input[type="button"]{
     padding:5px 10px;
-    background-color: rgb(161,229,74);
+    /* background-color: rgb(161,229,74); */
+    background-color: rebeccapurple;
     border: 1px solid #ccc;
     font-size: large;
     margin-top: 6px;
     color: white;
+    border-radius: 5px;
 }
 
 
@@ -46,7 +48,8 @@ input[type="button"]{
 
 }
 header{
-    background-color:  rgb(161,229,74);
+    /* background-color:  rgb(161,229,74); */
+    background-color: rebeccapurple;
     padding: 10px 40px ;
     color:white;
     border-radius: 20px;
