@@ -41,11 +41,8 @@ input[type="button"]{
     border: white solid 1px;
     /* padding: -1px; */
     margin: 40px auto;
-    width:40%;
+    width:30%;
     box-shadow: 10px 5px 5px #afafab;
-    
-    
-    
 
 }
 header{
@@ -66,3 +63,48 @@ header h1{
 header h3{
     margin-top: 0px;
 }
+
+
+
+@media all and (min-width:1500px) and (max-width:2000px) {
+    .container{
+        width: 30%;
+    }
+}
+
+
+
+@media all and (min-width:1000px) and (max-width:1499px) {
+    .container{
+        width: 35%;
+    }
+}
+
+
+@media all and (min-width:700px) and (max-width:999px) {
+    .container{
+        width: 50%;
+    }
+}
+
+
+@media all and (min-width:500px) and (max-width:699px) {
+    .container{
+        width: 70%;
+    }
+}
+
+
+@media all and (min-width:0px) and (max-width:499px) {
+    .container{
+        width: 90%;
+    }
+}
+
+
+/*
+@media all and (min-width:300px) {
+    .container{
+        width: 100%;
+    }
+} */
