@@ -8,5 +8,9 @@ Creating the first html website
 ## Project 2
 Creating a Payment form using HTML and designing it with CSS
 [Project 2](https://jenis-winsta.github.io/Web-Development/Project2_form/Form.html)   
-Creating a Contact us form with responsiveness using media queries
+Creating a Contact us form 
 [Project 2 B](https://jenis-winsta.github.io/Web-Development/Project2_contact_form/contact_form.html)
+
+## Project 3
+Making the Contact Us form responsive using media queries 
+[Project 3](https://jenis-winsta.github.io/Web-Development/Project3_responsive/contact_form.html)
