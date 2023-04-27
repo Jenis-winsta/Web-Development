@@ -17,6 +17,6 @@ Making the Contact Us form responsive using media queries
 
 ## Project 4
 Examples for display floating
-[Project 4 A]()  
+[Project 4 A](https://jenis-winsta.github.io/Web-Development/Project4_float/Float.html)  
 Creating a page with a sticky navbar
-[Project 4 B]()
+[Project 4 B](https://jenis-winsta.github.io/Web-Development/Project4_sticky/Sticky_nav.html)
