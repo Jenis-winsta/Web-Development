@@ -14,3 +14,9 @@ Creating a Contact us form
 ## Project 3
 Making the Contact Us form responsive using media queries 
 [Project 3](https://jenis-winsta.github.io/Web-Development/Project3_responsive/contact_form.html)
+
+## Project 4
+Examples for display floating
+[Project 4 A]()  
+Creating a page with a sticky navbar
+[Project 4 B]()
