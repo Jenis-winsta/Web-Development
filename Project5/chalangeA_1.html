@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex | challenge 1</title>
+    <style>
+      .flex-container {
+        text-align: center;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        /* flex-wrap: wrap; */
+      }
+      .flex-item {
+        width: 100%;
+        padding:5px;
+        /* width: 300px; */
+        /* height: 150px; */
+        margin: 3px;
+        padding: 10px 0 10px;
+        background-color: hotpink;
+        border: wheat 1px solid;
+        border-radius: 5px;
+      }
+
+      .box-container {
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* border: wheat 2px solid; */
+      }
+      .box {
+        text-align: center;
+        width: 40px;
+        background-color: antiquewhite;
+        margin: 2px;
+        border-radius: 5px;
+        padding: 2px 0 2px;
+      }
+
+      .box-group1 {
+        display: flex;
+        /* border: purple 2px solid; */
+        /* flex-direction: row; */
+      }
+
+      .box-group2 {
+        display: flex;
+        /* border: purple 2px solid; */
+      }
+      .box-group3 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">
+        Box 1
+        <div class="box-container">
+          <div class="box-group1">
+            <div class="box1 box">1</div>
+            <div class="box2 box">2</div>
+            <div class="box3 box">3</div>
+          </div>
+          <div class="box-group2">
+            <div class="box1 box">1</div>
+            <div class="box2 box">2</div>
+            <div class="box3 box">3</div>
+            <div class="box4 box">4</div>
+          </div>
+
+          <div class="box-group3">
+            <div class="box1 box">1</div>
+            <div class="box2 box">2</div>
+            <div class="box3 box">3</div>
+            <div class="box4 box">4</div>
+            <div class="box5 box">5</div>
+          </div>
+          <!-- <div class="box4 box">Sub 4</div> -->
+        </div>
+      </div>
+      <div class="flex-item">Box 2</div>
+      <div class="flex-item">Box 3</div>
+    </div>
+    <div class="flex-container">
+      <div class="flex-item">Box 1</div>
+      <div class="flex-item">Box 2</div>
+      <div class="flex-item">Box 3</div>
+      <div class="flex-item">Box 4</div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item">Box 1</div>
+        <div class="flex-item">Box 2</div>
+        <div class="flex-item">Box 3</div>
+        <div class="flex-item">Box 4</div>
+        <div class="flex-item">Box 5</div>
+      </div>
+  </body>
+</html>
+<!-- /* .flex-container{
+    height: 150px;
+    display: flex;
+}
+.flex-item{
+    background-color: chocolate;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 50%;
+    height: 40%;
+}
+
+.flex-items{
+    width: 30%;
+    height: 40%;
+    padding: 20px;
+    margin: 3px;
+    background-color: wheat;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+} */ -->
+<!-- <div class="flex-container">
+            <div class="flex-item">1
+                <div class="flex1">
+                    
+                <div class="flex-items">1</div>
+                <div class="flex-items">2</div>
+                <div class="flex-items">3</div>
+                </div>
+
+                <br>
+                <div class="flex1">
+                <div class="flex-items">1</div>
+                <div class="flex-items">2</div>
+                <div class="flex-items">3</div>
+                <div class="flex-items">4</div>
+            </div>
+                <br>
+                <div class="flex1">
+                <div class="flex-items">1</div>
+                <div class="flex-items">2</div>
+                <div class="flex-items">3</div>
+                <div class="flex-items">4</div>
+                <div class="flex-items">5</div>
+            </div>
+
+
+            </div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3 </div>
+        </div> -->
