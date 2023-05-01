@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox | practice 1</title>
+    <style>
+        .wrapper{
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+
+        .wrapper>*{
+            padding: 10px;
+            margin:10px;
+            flex: 1 100%;
+            border-radius: 10px;
+        }
+        .header{
+            background-color: tomato;
+            height: 120px;
+        }
+
+        .footer{
+            background-color: lightgreen;
+            height: 80px;
+        }
+        .main{
+            text-align: left;
+            background-color: deepskyblue;
+            height: 300px;
+            font-size: 24px;
+        }
+        .aside1{
+            background: gold;
+        }
+        .aside2{
+            background: hotpink;
+        }
+
+        @media all and (min-width: 800px){
+            .main{
+                flex:3;
+            }
+            .aside1{
+                order:1;
+            }
+            .aside2{
+                order:2;
+            }
+            .main{
+                order:2;
+            }
+            .footer{
+                order:4;
+            }
+        }
+
+        @media all and (min-width: 600px) {
+            .aside1,.aside2{
+                flex:1;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Header</h1>
+        </header>
+        <article class="main">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, architecto, nobis at praesentium blanditiis quasi quos, eveniet quisquam corporis aliquid eius fugit. Dolore quaerat, optio aperiam culpa quam soluta accusamus?</p>
+        </article>
+        <aside class="aside aside1">
+            <h1>Aside1</h1>
+        </aside>
+        <aside class="aside aside2">
+            <h1>Aside2</h1>
+        </aside>
+        <footer class="footer">
+            <h1>Footer</h1>
+        </footer>
+    </div>
+</body>
+</html>
