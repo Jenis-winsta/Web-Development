@@ -23,6 +23,7 @@ Creating a page with a sticky navbar
 
 ## Project 5
 #### Flexbox in CSS  
-Challenge1 [Project 5 A]()  
-Challenge2 [Project 5 B]()  
-Challenge3 [Project 5 C]()  
+Challenge1 [Project 5 A](https://jenis-winsta.github.io/Web-Development/Project5/Challenge1.html)  
+Challenge2 [Project 5 B](https://jenis-winsta.github.io/Web-Development/Project5/Challenge2.html)  
+Challenge3 [Project 5 C](https://jenis-winsta.github.io/Web-Development/Project5/Challenge3.html)
+Challenge4 [Project 5 D]()
