@@ -26,5 +26,5 @@ Creating a page with a sticky navbar
 Challenge1 [Project 5 A](https://jenis-winsta.github.io/Web-Development/Project5/Challenge1.html)  
 Challenge2 [Project 5 B](https://jenis-winsta.github.io/Web-Development/Project5/Challenge2.html)  
 Challenge3 [Project 5 C](https://jenis-winsta.github.io/Web-Development/Project5/Challenge3.html)  
-Challenge4 [Project 5 D](https://jenis-winsta.github.io/Web-Development/Project5/Challenge%204/Challenge4.html)
+Challenge4 [Project 5 D](https://jenis-winsta.github.io/Web-Development/Project5/Challenge%204/Challenge4.html)  
 Challenge5:Creating a demo website [Project 5 E](https://jenis-winsta.github.io/Web-Development/Project5/Challenge_5/Challenge5.html)
