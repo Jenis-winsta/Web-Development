@@ -31,5 +31,5 @@ Challenge5: Creating a demo website [Project 5 E](https://jenis-winsta.github.io
 
 ## Project 6
 #### Grid in CSS
-Challenge1 [Project 6 a](https://jenis-winsta.github.io/Web-Development/Project6/challenge1.html)
+Challenge1 [Project 6 a](https://jenis-winsta.github.io/Web-Development/Project6/challenge1.html)  
 Challenge2 [Project 6 b](https://jenis-winsta.github.io/Web-Development/Project6/challenge2.html)
