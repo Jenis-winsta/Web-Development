@@ -28,3 +28,7 @@ Challenge2 [Project 5 B](https://jenis-winsta.github.io/Web-Development/Project5
 Challenge3 [Project 5 C](https://jenis-winsta.github.io/Web-Development/Project5/Challenge3.html)  
 Challenge4 [Project 5 D](https://jenis-winsta.github.io/Web-Development/Project5/Challenge%204/Challenge4.html)  
 Challenge5: Creating a demo website [Project 5 E](https://jenis-winsta.github.io/Web-Development/Project5/Challenge_5/Challenge5.html)
+
+## Project 6
+#### Grid in CSS
+Challenge1 [Project 6 a]()
